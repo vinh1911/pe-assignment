@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+
+.heading {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  margin-bottom: 16px;
+
+  &__icon {
+    color: blueviolet;
+  }
+}

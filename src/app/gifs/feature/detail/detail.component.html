@@ -1,0 +1,20 @@
+<app-heading text="GIF's detail" iconName="info" class="search-heading"></app-heading>
+
+<div *ngIf="gif$ | async as gif" class="gif-detail">
+  <div class="gif-detail__user">
+    <app-user-info [user]="gif.user"></app-user-info>
+  </div>
+  <div class="gif-detail__img">
+    <div class="title">{{ gif.title }}</div>
+    <app-gifs-item [thumbnailDisplay]="false" [gif]="gif"></app-gifs-item>
+  </div>
+  <div class="gif-detail__info">
+    <div><span class="label">Rating:</span> {{ gif.rating }}</div>
+    <div>
+      <span class="label">Uploaded:</span>
+      {{ gif.import_datetime | date : 'dd/MM/yyyy' }}
+    </div>
+  </div>
+</div>
+
+<app-loading *ngIf="loading$ | async"></app-loading>
