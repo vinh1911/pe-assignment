@@ -1,4 +1,4 @@
-# Pi.Ex Assignment
+# Pi.Ex Assignment [[Live Demo]](https://pe-assignment.vercel.app/)
 
 Unfotunately I had a busy week so I can only spend my weekends for this projects. Roughly 8hrs of coding time.
 
