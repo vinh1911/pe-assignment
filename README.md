@@ -1,4 +1,26 @@
-# PeAssignment
+# Pi.Ex Assignment
+
+Unfotunately I had a busy week so I can only spend my weekends for this projects. Roughly 8hrs of coding time.
+
+My main focus while developing this was the structure of the project.
+
+It is inspired by Nx's scaleable monorepo style architeture and I leveraged the new Standalone Component to shift from a standard Module focused Angular app to a Component/Feature focused one.
+
+I tried to make my code declarative with async pipe, rxjs, component-store for a simple and clean code so I didn't comment on my code much.
+
+## If I had more time / What I would add
+
+Virtual inifite scroll on the GIFs list or some kind of pagination, currently it only load 50 gifs.
+
+Add unit test and e2e test
+
+Improve the GIFs grid css so that the space is closer (Masonry grid)
+
+Error handling, 404.html, Route Guard, etc....
+
+Styling in general i guess
+
+## About
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
