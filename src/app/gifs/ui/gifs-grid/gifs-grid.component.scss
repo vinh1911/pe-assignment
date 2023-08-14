@@ -3,11 +3,13 @@
 }
 
 .gifs-container {
-  display: grid;
-  grid-template-columns: repeat(6, 200px);
-  gap: 1.5rem 2.5rem;
-
-  @media screen and (max-width: 90em) /* 1440px */ {
-    grid-template-columns: repeat(5, 200px);
+  columns: 7 200px;
+  column-gap: 1rem;
+  @for $i from 1 through 36 { 
+    div:nth-child(#{$i}) {
+      $h: (random(400) + 100) + px;
+      height: $h;
+      line-height: $h;
+    }
   }
 }

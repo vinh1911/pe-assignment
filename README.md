@@ -14,7 +14,7 @@ Virtual inifite scroll on the GIFs list or some kind of pagination, currently it
 
 Add unit test and e2e test
 
-Improve the GIFs grid css so that the space is closer (Masonry grid)
+Improve responsive css
 
 Error handling, 404.html, Route Guard, etc....
 

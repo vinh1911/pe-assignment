@@ -14,4 +14,5 @@ import { Gif } from 'src/app/shared/interfaces/api-interfaces';
 export class GifsItemComponent {
   @Input() gif?: Gif;
   @Input() thumbnailDisplay = true;
+  randomColor = Math.floor(Math.random()*16777215).toString(16);
 }
